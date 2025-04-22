@@ -1,56 +1,58 @@
 # Polkadart
 
-- **Team Name:** Snowpine Labs Inovacao em Tecnologia Ltda
-- **Payment Address:** <polkadot address>
-
-> :exclamation: *The combination of your GitHub account submitting the application and the payment address above will be your unique identifier during the program. Please keep them safe.*
+- **Team Name:** Polkadart Dev Team
+- **Payment Address:** 167QS6UiF1ZJBkHtngCBoHTSbLm4Rokc2ehfFBEniEGQXB4k
 
 ## Project Overview :page_facing_up:
 ### Overview
 
-Please provide the following:
+[Polkadart](https://polkadart.dev) - A multi-platform library for creating hybrid applications (windows, linux, macOS, android, iOS, web) for any Polkadot-SDK based blockchain.
 
-- If the name of your project is not descriptive, a tag line (one sentence summary).
-- A brief description of your project.
-- An indication of how your project relates to ink! ecosystem.
-- Choosen project idea category or your alternative category with explanation of its importance
-- An indication of why your team is interested in creating this project.
+We have initiated the development of Polkadart through [W3F Grants Program](https://github.com/w3f/Grants-Program/blob/master/applications/Polkadart.md) focusing in making a full replacement implementation of Polkadot-JS in Dart.
+Multiple packages were delivered and are being maintaining ever since, those include: polkadart, polkadart_cli, polkadart_keyring, polkadart_scale_codec, secp256k1_ecdsa, sr25519, ss58, substrate_bip39, substrate_metadata, ink_abi, ink_cli
+Our full documentation is available at https://polkadart.dev
+
 
 ### Ink! Ecosystem Impact
 
-Please clearly describe how exactly your project will benefit the ecosystem. If it's infrastructure - how it's going to be applied and by who. If it's canary dapp we would you to clearly demonstrate how this code will be used by other people. If it's technical showcase we would like you to demonstrate how ink! will be promoted using your results. 
+Polkadart is allowing any Dart & Flutter developer to mamke hybrid applications for the Polkadot ecosystem.
+It is important to note that Flutter is known by being able to support any platform with a single codebase
+Those include Windows, Linux, macOS, Android, iOS, and the web.
+Being able to support every polkadot feature on flutter is a big step forward in the ecosystem adoption.
 
-If it's a business case we would like to see business model and future production plans. 
+We believe that ink v6 is a very new exciting feature and really important to not be supported.
+This will allow the onboarding of new developers into the ecosystem easier, it will improve what they can achieve and reduce the time that they might take it
+It also reduces the learning curve of Polkadot knowledge necessary to make a dApp.
 
 ### Project Details
 
-We expect the teams to already have a solid idea about the project expected final state. Therefore, we ask the teams to submit (where relevant):
+We want to improve polkadart and its package by bring full support for the pallet-revive and ink! v6.
 
-- Data models / API specifications of the core functionality
-- An overview of the technology stack to be used
-- Documentation of core components, protocols, architecture, etc. to be deployed
-- PoC/MVP or other relevant prior work or research on the topic
-- What your project is _not_ or will _not_ provide or implement
-  - This is a place for you to manage expectations and to clarify any limitations that might not be obvious
-- Do you need an audit for the contacts? **YES/NO**
-(don’t add it as part of Milestones! The auditor will be chosen among Auditor track participants)
-- CATEGORY: Infrastructure OR Canary Dapp OR Technical Showcase
-- An overview of the business model, including revenue streams, target market, and scalability, if applicable.
-- Future production plans and growth strategy, highlighting how the project intends to achieve sustainability and long-term success, if applicable.
+As of April 22, polkadart has over 1.47k downloads on [pub.dev](https://pub.dev), 44 stars on github, 179 issues solved, and 12 contributors.
+A few projects we know that are using it include: Encointer Wallet, Threefold Connect, WeTEE, Reown/WalletConnect
 
+Our team believes that ink! v6 is capable of bringing even more people to our ecosystem and we need to be ready in the Dart & Flutter side to make that possible.
+For that we plan to work in the following features in this project:
+- Contract deployment module
+- Metadata handling
+- Contract invocation module
+- Event decoding and handling
+- Error handling and logging
+- Storage access module
+- Support for complex data types
+- Documentation
+- Tutorials
+- Playground
 
-Things that shouldn’t be part of the application:
-- The (future) tokenomics of your project 
-- For non-infrastructure projects—deployment and hosting costs, maintenance or audits
-- Business-oriented activities (marketing, business planning), events or outreach
+#### Category: Infrastructure
 
 
 ## Team :busts_in_silhouette:
 
 ### Team members
 
-- Name of team leader: Leonardo Custodio
-- Names of team members: Kawal Singh
+- Leonardo Custodio (Team Leader)
+- Kawal Singh
 
 ### Contact
 
@@ -60,20 +62,18 @@ Things that shouldn’t be part of the application:
 
 ### Legal Structure
 
-- **Registered Address:** Address of your registered legal entity, if available. Please keep it in a single line. (e.g. High Street 1, London LK1 234, UK)
-- **Registered Legal Entity:** Name of your registered legal entity, if available. (e.g. Duo Ltd.)
+- **Registered Address:** R. Cap Souza Franco, 350 - Cj 22 - Curitiba, PR - Brazil
+- **Registered Legal Entity:** Snowpine Labs Inovacao em Tecnologia Ltda
 
 ### Team's experience
 
 Please describe the team's relevant experience. If your project involves development work, we would appreciate it if you singled out a few interesting projects or contributions made by team members in the past.
 
-Leonardo Custodio
+**Leonardo Custodio**
+A Blockchain Engineer with a robust software development background. He has over four years of dedicated experience in Polkadot-related technologies and six years of experience as a Flutter developer and over 10 years of experience in software development. Currently, he is working on PolkaIdentity and creating innovative SDKs tailored for game developers that enables seamless interactions with polkadot based systems.
 
-Leonardo is a Blockchain Engineer with a robust software development background. He has over four years of dedicated experience in Polkadot-related technologies and six years of experience as a Flutter developer and over 10 years of experience in software development. Currently, he is working on PolkaIdentity and creating innovative SDKs tailored for game developers that enables seamless interactions with polkadot based systems.
-
-Kawaljeet Singh
-
-Kawal has extensive hands-on experience in Flutter and has good understanding of Polkadot's stack and protocols. With numerous apps published on iOS and android in Flutter ranging from data-management to live appointment systems and drag-and-drop desktop designing tool, he brings good knowledge and vast skill-sets to the team. In his free time he is focused on developing Flutter tools and libraries like excel useful to ease developers work. On week-ends, he publishes complex UIs made in Flutter to showcase Flutter's use-cases.
+**Kawaljeet Singh**
+An experienced Flutter developer and that has good understanding of Polkadot's stack and protocols. With numerous apps published on iOS and android in Flutter ranging from data-management to live appointment systems and drag-and-drop desktop designing tool, he brings good knowledge and vast skill-sets to the team. In his free time he is focused on developing Flutter tools and libraries like excel useful to ease developers work. On week-ends, he publishes complex UIs made in Flutter to showcase Flutter's use-cases.
 
 ### Team Code Repos
 
@@ -92,59 +92,90 @@ Please also provide the GitHub accounts of all team members. If they contain no 
 
 ## Development Status :open_book:
 
-- links to your research diary, blog posts, articles, forum discussions or open GitHub issues,
-- references to conversations you might have had related to building this template,
+Polkadart development has been supported by W3F Grants Program, we have successfully delivered all milestones.
+This proposal aims in bringing new features and capabilities to polkadart.
 
 ## Development Roadmap :nut_and_bolt:
 
-This section should break the development roadmap down into milestones and deliverables. Since these will be part of the agreement, it helps to describe _the functionality we should expect in as much detail as possible_, plus how we can verify and test that functionality. Whenever milestones are delivered, we refer to this document to ensure that everything has been delivered as expected.
-
-Below we provide an **example roadmap**.
-
-> :exclamation: If any of your deliverables is based on somebody else's work, make sure you work and publish _under the terms of the license_ of the respective project and that you **highlight this fact in your milestone documentation** and in the source code if applicable! **Teams that submit others' work without attributing it will be immediately terminated.**
-
 ### Overview
 
-- **Total Estimated Duration:** 4
-- **Full-Time Equivalent (FTE):**  Average number of full-time employees working on the project throughout its duration (see [Wikipedia](https://en.wikipedia.org/wiki/Full-time_equivalent), e.g. 2 FTE)
-- **Total Costs:** Requested amount in USD for the whole project (e.g. 12,000 USD). Note that the acceptance criteria and additional benefits vary depending on the level of funding requested. This and the costs for each milestone need to be provided in USD.
+- **Total Estimated Duration:** 6 months
+- **Full-Time Equivalent (FTE):**  1 FTE
+- **Total Costs:** 50,000 USD
 
-### Milestone 1 Example — Basic functionality
 
-- **Estimated duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+### Milestone 1 - Core features & metadata
 
-> :exclamation: **The default deliverables 0a-0d below are mandatory for all milestones**, and deliverable 0e at least for the last one. 
+- **Estimated duration:**  2 months
+- **FTE:**  1
+- **Costs:** 15,000 USD
 
 | Number | Deliverable | Specification |
 | -----: | ----------- | ------------- |
-| **0a.** | License | Apache 2.0 / GPLv3 / MIT / Unlicense |
+| **0a.** | License | Apache 2.0 |
 | **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
 | **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
 | **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
 | 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
-| 1. | Substrate module: X | We will create a Substrate module that will... (Please list the functionality that will be implemented for the first milestone. You can refer to details provided in previous sections.) |
-| 2. | Substrate module: Y | The Y Substrate module will... |
-| 3. | Substrate module: Z | The Z Substrate module will... |
-| 4. | Substrate chain | Modules X, Y & Z of our custom chain will interact in such a way... (Please describe the deliverable here as detailed as possible) |
-| 5. | Library: ABC | We will deliver a JS library that will implement the functionality described under "ABC Library" |
-| 6. | Smart contracts: ... | We will deliver a set of ink! smart contracts that will...
+| 1. | Pallet Revive | Develop all utilities and core features we need to support the new pallet-revive |
+| 1. | Contract deployment module | We will add support for ink! v6 deployment, maintaining backward compability with the previous already immplented versions |
+| 2. | Metadata handling | Make a new parser for v6 that will be able to utilize the metadata for dynamic interactions |
 
 
-### Milestone 2 Example — Additional features
+### Milestone 2 - Contract interactions
 
-- **Estimated Duration:** 1 month
-- **FTE:**  1,5
-- **Costs:** 8,000 USD
+- **Estimated duration:**  1.5 months
+- **FTE:**  1
+- **Costs:** 10,000 USD
 
-...
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | Apache 2.0 |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
+| 1. | Contract invocation module | Implemment functions to call contract methods, including read-only (queries) and state-changing (transactions) functions |
+| 2. | Event decoding and handling | Develop mechanism to decode and handle events emitted by contracts |
+| 3. | Error handling and logging | Integrate error handling and logging to aid in debugging | 
+
+
+### Milestone 3 - Storage access
+
+- **Estimated duration:**  1.5 months
+- **FTE:**  1
+- **Costs:** 10,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | Apache 2.0 |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
+| 1. | Storage access module | Implement functions to read from and write to contract storage
+| 2. | Support for complex data types | Extend storage access capabilities to handle complex and nested data types within contract storage
+| 3. | Performance optimization | Optimize storage access functions for better performance
+
+
+### Milestone 4 - Docs & tutorials
+- **Estimated duration:**  1 month
+- **FTE:**  1
+- **Costs:** 15,000 USD
+
+| Number | Deliverable | Specification |
+| -----: | ----------- | ------------- |
+| **0a.** | License | Apache 2.0 |
+| **0b.** | Documentation | We will provide both **inline documentation** of the code and a basic **tutorial** that explains how a user can (for example) spin up one of our Substrate nodes and send test transactions, which will show how the new functionality works. |
+| **0c.** | Testing and Testing Guide | Core functions will be fully covered by comprehensive unit tests to ensure functionality and robustness. In the guide, we will describe how to run these tests. |
+| **0d.** | Docker | We will provide a Dockerfile(s) that can be used to test all the functionality delivered with this milestone. |
+| 0e. | Article | We will publish an **article**/workshop that explains [...] (what was done/achieved as part of the grant). (Content, language and medium should reflect your target audience described above.) |
+| 1. | Documentation | We will add to polkadart.dev the full documentation for every new API created |
+| 2. | Tutorials | We will create tutorials and guides for different use-cases so the developer can check examples |
+| 3. | Playground | We will add to the playground (if available) examples that the developer can run directly in the browser |
 
 
 ## Future Plans
-
-Please include here if you have a future plan after building this template in making it in to production.
-
 
 
 
@@ -152,9 +183,5 @@ Please include here if you have a future plan after building this template in ma
 ## Additional Information :heavy_plus_sign:
 
 **How did you hear about the Bounty Program?** Polkadot Blockchain Academy
-
-Here you can also add any additional information that you think is relevant to this application but isn't part of it already, such as:
-
-- If there are any other teams who have already contributed (financially) to the project.
 
 Everything done in Polkadart so far was funding by Web3 Foundation. We have also applied to the Polkadot Open Source Grants with a different scope of what we have here. There is no overlap or double spending between the two applications.
